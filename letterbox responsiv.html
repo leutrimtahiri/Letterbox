@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="respsty.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="w1">
+                
+                <img id="c1" src="images/cover.jpg">
+            
+            
+                <img id="l1" src="images/lg.svg" >
+                
+                            
+            <div class="nav" >
+                <a href="#">SIGN IN</a>
+                <a href="#">CREATE ACCOUNT</a>
+                <a href="#">FILMS</a>
+                <a href="#">LISTS</a>
+                <a href="#">MEMEBERS</a>
+                <a href="#">JOURNAL</a>
+                <input type="search" id="search" placeholder="Search..." >
+            </div>
+            <div id="meny" >
+                <a href="#">SIGN IN</a>
+                <a href="#">CREATE ACCOUNT</a>
+                <a href="#">FILMS</a>
+                <a href="#">LISTS</a>
+                <a href="#">MEMEBERS</a>
+                <a href="#">JOURNAL</a>
+                <input type="search" id="search" placeholder="Search..." >
+            </div>
+            <ion-icon id="m1" name="menu-outline" onclick="hap()"></ion-icon>
+            <div>
+            <h1 id="t1">Track films you've watched.<br>
+                Save those you want to see.<br> Tell your frienxlods what's good.</h1>
+                <button id="b1" >GET STARTED - IT'S FREE </button>
+            </div>
+                <div id="p1">The social network for film lovers. Also available on 
+                    <ion-icon name="logo-android"></ion-icon> <ion-icon name="logo-apple"></ion-icon></div>
+            
+                    <div class="row1">
+                        <div class="col">
+                            <img src="images/f2.jpg"><p><i style="color: rgb(247, 247, 1); opacity: 1;"><ion-icon name="heart"></ion-icon></i><br>123,456<br><i style="color: green; opacity: 1;"><ion-icon name="eye"></ion-icon><br></i>543,654<br></p>
+                        </div>
+                        <div class="col">
+                         <img src="images/f1.jpg"><p><i style="color: rgb(247, 247, 1); opacity: 1;"><ion-icon name="heart"></ion-icon></i><br>123,456<br><i style="color: green; opacity: 1;"><ion-icon name="eye"></ion-icon><br></i>543,654<br></p>
+                     </div>
+                     <div class="col">
+                         <img src="images/f3.jpg"><p><i style="color: rgb(247, 247, 1); opacity: 1;"><ion-icon name="heart"></ion-icon></i><br>123,456<br><i style="color: green; opacity: 1;"><ion-icon name="eye"></ion-icon><br></i>543,654<br></p>
+                     </div>
+                     <div class="col">
+                         <img src="images/f4.jpg"><p><i style="color: rgb(247, 247, 1); opacity: 1;"><ion-icon name="heart"></ion-icon></i><br>123,456<br><i style="color: green; opacity: 1;"><ion-icon name="eye"></ion-icon><br></i>543,654<br></p>
+                     </div>
+                     <div class="col">
+                         <img src="images/f5.jpg"><p><i style="color: rgb(247, 247, 1); opacity: 1;"><ion-icon name="heart"></ion-icon></i><br>123,456<br><i style="color: green; opacity: 1;"><ion-icon name="eye"></ion-icon><br></i>543,654<br></p>
+                     </div>
+                     <div class="col">
+                         <img src="images/f6.jpg"><p><i style="color: rgb(247, 247, 1); opacity: 1;"><ion-icon name="heart"></ion-icon></i><br>123,456<br><i style="color: green; opacity: 1;"><ion-icon name="eye"></ion-icon><br></i>543,654<br></p>
+                     </div>
+                    </div>   
+                    <div class="row2">
+                        <div class="col2"><div id="i1"><ion-icon name="eye"></ion-icon></div> <div id="d">Keep track of every film you’ve ever watched (or just start from the day you join)</div></div>
+                        <div class="col2"><div id="i1"><ion-icon name="heart"></ion-icon></div> <div id="d">Keep track of every film you’ve ever watched (or just start from the day you join)</div></div>
+                        <div class="col2"><div id="i1"><ion-icon name="menu"></ion-icon></div> <div id="d">Keep track of every film you’ve ever watched (or just start from the day you join)</div></div>
+                    </div>      
+                    <div class="row2">
+                     <div class="col2"><div id="i1"><ion-icon name="calendar-clear"></ion-icon></div> <div id="d">Keep track of every film you’ve ever watched (or just start from the day you join)</div></div>
+                     <div class="col2"><div id="i1"><ion-icon name="grid"></ion-icon></div> <div id="d">Keep track of every film you’ve ever watched (or just start from the day you join)</div></div>
+                     <div class="col2"><div id="i1"><ion-icon name="eye"></ion-icon></div> <div id="d">Keep track of every film you’ve ever watched (or just start from the day you join)</div></div>
+                 </div>   
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        var meny=document.getElementById("meny");
+        meny.style.left="200%"
+        function hap(){
+            if(meny.style.left=="200%")
+            {meny.style.left="10%"}
+            else{meny.style.left="200%"}
+        }
+    </script>
+    </body>
+</html>
